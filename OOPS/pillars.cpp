@@ -101,6 +101,9 @@ int main(){
     d.show();
 
     //polymorphism
+
+    // Employee* dev = &Developer("Mohit"); This does not work
+
     Developer dev = Developer("Mohit");
     Employee* emp = &dev;
     emp->work();
